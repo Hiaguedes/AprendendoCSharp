@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais", "Condicionai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LacosDeRepeticao", "LacosDeRepeticao\LacosDeRepeticao.csproj", "{8D5A1781-052C-4BED-8662-6E4B6945F8AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{2C67E373-CE22-49C6-86B0-E9EB3874394C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8D5A1781-052C-4BED-8662-6E4B6945F8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D5A1781-052C-4BED-8662-6E4B6945F8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D5A1781-052C-4BED-8662-6E4B6945F8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C67E373-CE22-49C6-86B0-E9EB3874394C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C67E373-CE22-49C6-86B0-E9EB3874394C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C67E373-CE22-49C6-86B0-E9EB3874394C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C67E373-CE22-49C6-86B0-E9EB3874394C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
