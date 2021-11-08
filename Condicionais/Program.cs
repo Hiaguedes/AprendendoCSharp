@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Condicionais
 {
@@ -35,9 +31,9 @@ namespace Condicionais
             }
 
             Console.WriteLine(salario);
-      
 
-        Console.ReadLine();
+
+            Console.ReadLine();
         }
     }
 }
