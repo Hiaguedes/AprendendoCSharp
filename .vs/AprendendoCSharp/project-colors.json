@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "2c67e373-ce22-49c6-86b0-e9eb3874394c": {
+      "ProjectGuid": "2c67e373-ce22-49c6-86b0-e9eb3874394c",
+      "DisplayName": "Classes",
+      "ColorIndex": 0
+    },
+    "44c22d10-d889-4704-ac24-3d5e1ee5f589": {
+      "ProjectGuid": "44c22d10-d889-4704-ac24-3d5e1ee5f589",
+      "DisplayName": "ByteBank-Main",
+      "ColorIndex": 1
+    },
+    "27a1c010-1f6d-4880-877d-76d0d4c3475b": {
+      "ProjectGuid": "27a1c010-1f6d-4880-877d-76d0d4c3475b",
+      "DisplayName": "ByteBank",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
