@@ -1,34 +1,19 @@
 ﻿using System;
+using Classes.Exceptions;
 
 namespace ByteBank
 {
     public class ContaCorrente
     {
         public static int numeroContas { get; private set; } = 0;
-        public ContaCorrente(int agencia, int numero)
-        {
-            Agencia = agencia;
-            Numero = numero;
-            numeroContas++;
-        }
 
         public Titular Titular
         {
             get;
             set;
         } = new Titular();
-
-        public int Agencia
-        {
-            get;
-            set;
-        }
-
-        public int Numero
-        {
-            get;
-            set;
-        }
+        public int Agencia { get; }
+        public int Numero { get; }
 
         private double _saldo = 100;
         public double Saldo
@@ -45,19 +30,56 @@ namespace ByteBank
             }
         }
 
-        public bool Sacar(double valor)
+
+        public static double TaxaOperacao { get; private set; }
+
+        public ContaCorrente(int agencia, int numeroConta)
         {
+            if (agencia <=0)
+            {
+                ArgumentException argumentException = 
+                    new ArgumentException("O argumento " + nameof(agencia) + " no construtor de ContaCorrente nao pode ser menor ou igual a zero", nameof(agencia));
+                throw argumentException;
+            }
+
+            if(numeroConta <= 0)
+            {
+                ArgumentException argumentException = new ArgumentException("O argumento " + nameof(numeroConta) + " no construtor de ContaCorrente nao pode ser menor ou igual a zero", nameof(numeroConta));
+                throw argumentException;
+            }
+            Agencia = agencia;
+            Numero = numeroConta;
+            numeroContas++;
+
+            try
+            {
+                TaxaOperacao = 30 / numeroContas;   
+
+            }
+            catch(DivideByZeroException)
+            {
+                TaxaOperacao = 30;
+            }
+
+
+        }
+
+        public void Sacar(double valor)
+        {
+            if(valor < 0) {
+                throw new ArgumentException("Valor invalido para o saque, valor negativo", nameof(valor));
+             }
+
             if (valor > _saldo)
             {
-                Console.WriteLine("Valor digitado maior que o saldo em conta");
-                return false;
-
+                // Console.WriteLine("Valor digitado maior que o saldo em conta");
+                // throw new SaldoInsuficienteException("O atual saldo em conta e de: " + _saldo + "\nnao podemos sacar um valor maior que esse");
+                throw new SaldoInsuficienteException(_saldo, valor);
             }
 
             _saldo -= valor;
 
             Console.WriteLine("O saldo da conta do " + Titular.nome + " agora é de R$ " + _saldo);
-            return true;
         }
 
         public void Depositar(double valor)
@@ -66,18 +88,16 @@ namespace ByteBank
             Console.WriteLine("O saldo da conta do " + Titular.nome + " agora é de R$ " + _saldo);
         }
 
-        public bool Transferir(double valor, ContaCorrente contaDestino)
+        public void Transferir(double valor, ContaCorrente contaDestino)
         {
             if (valor > _saldo)
             {
-                Console.WriteLine("Valor digitado maior que o saldo em conta");
-                return false;
+                throw new ArgumentException("Valor invalido para a transferencia, valor negativo", nameof(valor));
             }
 
-            this.Sacar(valor);
+            Sacar(valor);
             contaDestino.Depositar(valor);
 
-            return true;
         }
 
     }

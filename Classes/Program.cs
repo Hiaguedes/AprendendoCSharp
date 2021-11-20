@@ -1,13 +1,51 @@
 ﻿using System;
 using ByteBank;
+using Classes.Exceptions;
 
 namespace Classes
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            try
+            {
+                Method();
+            }
+            catch (NullReferenceException error)
+            {
+                Console.WriteLine("Ocorreu um erro de referencia nula");
+                Console.WriteLine(error.Message);
+                Console.WriteLine("Na classe " + error.TargetSite);
 
+            }
+            catch (ArgumentException error)
+            {
+                Console.WriteLine("Ocorreu um erro de argumento");
+                Console.WriteLine(error.Message);
+                Console.WriteLine("No parametro " + error.ParamName);
+                Console.WriteLine("Na classe " + error.TargetSite);
+
+            }
+            catch (SaldoInsuficienteException ex) {
+                Console.WriteLine("Excecao de saldo Insuficiente");
+                Console.WriteLine(ex.Message);
+             }
+            catch (Exception error)
+            {
+                Console.WriteLine("Ocorreu um erro");
+                Console.WriteLine(error.Message);
+                Console.WriteLine(error.StackTrace);
+            }
+            finally
+            {
+                Console.ReadLine(); 
+            }
+
+        }
+
+        static void Method()
+         {
             ContaCorrente conta1 = new ContaCorrente(12345, 1)
             {
                 Saldo = 200,
@@ -28,6 +66,13 @@ namespace Classes
                 }
             };
 
+            // ContaCorrente conta3 = new ContaCorrente(40, 0);
+
+
+            // ContaCorrente contaError = null;
+
+            // contaError.Depositar(10);
+
             conta1.Sacar(100);
             conta2.Depositar(55);
             conta1.Depositar(300);
@@ -36,7 +81,9 @@ namespace Classes
 
             Console.WriteLine("O numero de contas criadas é de " + ContaCorrente.numeroContas);
 
-            Console.ReadLine();
+            Console.WriteLine("Taxa Ate o momento " + ContaCorrente.TaxaOperacao);
+
+
         }
     }
 }
