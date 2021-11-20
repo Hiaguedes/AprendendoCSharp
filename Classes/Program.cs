@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using ByteBank;
 using Classes.Exceptions;
 
@@ -10,7 +11,8 @@ namespace Classes
         {
             try
             {
-                Method();
+                //Method();
+                LendoAquivosExternos();
             }
             catch (NullReferenceException error)
             {
@@ -18,6 +20,11 @@ namespace Classes
                 Console.WriteLine(error.Message);
                 Console.WriteLine("Na classe " + error.TargetSite);
 
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("Ocorreu um erro do tipo IO");
+                Console.WriteLine(ex.StackTrace);
             }
             catch (ArgumentException error)
             {
@@ -30,12 +37,14 @@ namespace Classes
             catch (SaldoInsuficienteException ex) {
                 Console.WriteLine("Excecao de saldo Insuficiente");
                 Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
              }
             catch (Exception error)
             {
                 Console.WriteLine("Ocorreu um erro");
                 Console.WriteLine(error.Message);
                 Console.WriteLine(error.StackTrace);
+                //Console.WriteLine(error.InnerException);
             }
             finally
             {
@@ -44,6 +53,34 @@ namespace Classes
 
         }
 
+        static void LendoAquivosExternos()
+        {
+            using (LeitorArquivo leitor = new LeitorArquivo("contas.txt")) // ele vai chamar o q seria o finally dentro do metodo Dispose, garantido pela interface IDisposable
+            {
+                leitor.LerLinha();
+                leitor.LerLinha();
+                leitor.LerLinha();
+                leitor.LerLinha();
+
+            }
+
+            //try
+            //{
+
+
+
+            //}
+            //catch (IOException ex)
+            //{
+            //    Console.WriteLine("Ocorreu um erro do tipo IO");
+            //    Console.WriteLine(ex.StackTrace);
+            //}
+            //finally {
+            //    if(leitor != null)
+            //        leitor.Dispose();
+            //}
+
+        }
         static void Method()
          {
             ContaCorrente conta1 = new ContaCorrente(12345, 1)
@@ -77,7 +114,7 @@ namespace Classes
             conta2.Depositar(55);
             conta1.Depositar(300);
 
-            conta1.Transferir(100, conta2);
+            conta1.Transferir(10, conta2);
 
             Console.WriteLine("O numero de contas criadas é de " + ContaCorrente.numeroContas);
 
@@ -87,3 +124,23 @@ namespace Classes
         }
     }
 }
+
+/*
+ O using é um açúcar sintático para o código:
+
+RecursoDoSistema recurso = null;
+try
+{
+    recurso = new RecursoDoSistema();
+    recurso.Usar();
+}
+finally
+{
+    if(recurso != null)
+    {
+        recurso.Dispose();
+    }
+}
+
+Correta! Com o bloco using, a instanciação do objeto acontece em um bloco try e no bloco finally o método Dispose é invocado após a verificação de referência nula.
+ */

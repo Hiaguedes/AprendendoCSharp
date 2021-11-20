@@ -90,12 +90,21 @@ namespace ByteBank
 
         public void Transferir(double valor, ContaCorrente contaDestino)
         {
-            if (valor > _saldo)
+            if (valor < 0)
             {
                 throw new ArgumentException("Valor invalido para a transferencia, valor negativo", nameof(valor));
             }
 
-            Sacar(valor);
+
+            try
+            {
+                Sacar(valor);
+
+            }
+            catch (SaldoInsuficienteException ex)
+            {
+                throw new OperacaoFinanceiraException("Pegou uma transferencia de valor maior que o saldo", ex); // no sacar eu tenho a mensagem do valor especifico no transferir nao (regra de negocio da exception)
+            }
             contaDestino.Depositar(valor);
 
         }
