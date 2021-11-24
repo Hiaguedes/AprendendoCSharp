@@ -1,0 +1,14 @@
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\bin\Debug\net6.0\Bytebank.Modelos.deps.json
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\bin\Debug\net6.0\Bytebank.Modelos.dll
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\bin\Debug\net6.0\ref\Bytebank.Modelos.dll
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\bin\Debug\net6.0\Bytebank.Modelos.pdb
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\Bytebank.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\Bytebank.Modelos.AssemblyInfoInputs.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\Bytebank.Modelos.AssemblyInfo.cs
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\Bytebank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\Bytebank.Modelos.dll
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\ref\Bytebank.Modelos.dll
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\Bytebank.Modelos.pdb
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\bin\Debug\net6.0\ByteBank.Modelos.xml
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.xml
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Bytebank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.csproj.AssemblyReference.cache

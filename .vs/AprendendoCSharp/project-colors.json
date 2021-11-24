@@ -20,7 +20,27 @@
       "ProjectGuid": "27a1c010-1f6d-4880-877d-76d0d4c3475b",
       "DisplayName": "ByteBank",
       "ColorIndex": 2
+    },
+    "6f4dd93e-22d0-4af1-ad4a-135454a0a3de": {
+      "ProjectGuid": "6f4dd93e-22d0-4af1-ad4a-135454a0a3de",
+      "DisplayName": "ByteBank",
+      "ColorIndex": 3
+    },
+    "94f82bab-55b2-4d2d-ae14-54cb30ecde27": {
+      "ProjectGuid": "94f82bab-55b2-4d2d-ae14-54cb30ecde27",
+      "DisplayName": "Bytebank.SistemaAgencia",
+      "ColorIndex": 4
+    },
+    "b3223005-5042-4c81-9158-2a6026a2ac7e": {
+      "ProjectGuid": "b3223005-5042-4c81-9158-2a6026a2ac7e",
+      "DisplayName": "ByteBank.Modelos",
+      "ColorIndex": 5
+    },
+    "dbc8afaa-2bf9-4e06-b4cb-91f9267906ab": {
+      "ProjectGuid": "dbc8afaa-2bf9-4e06-b4cb-91f9267906ab",
+      "DisplayName": "AprendendoCSharp",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 7
 }

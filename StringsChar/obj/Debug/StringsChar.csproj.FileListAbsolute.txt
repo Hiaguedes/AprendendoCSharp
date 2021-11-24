@@ -1,0 +1,7 @@
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\bin\Debug\StringsChar.exe.config
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\bin\Debug\StringsChar.exe
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\bin\Debug\StringsChar.pdb
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.csproj.SuggestedBindingRedirects.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.csproj.CoreCompileInputs.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.exe
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.pdb

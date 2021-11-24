@@ -1,0 +1,7 @@
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\bin\Debug\LacosDeRepeticao.exe.config
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\bin\Debug\LacosDeRepeticao.exe
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\bin\Debug\LacosDeRepeticao.pdb
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\obj\Debug\LacosDeRepeticao.csproj.SuggestedBindingRedirects.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\obj\Debug\LacosDeRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\obj\Debug\LacosDeRepeticao.exe
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\LacosDeRepeticao\obj\Debug\LacosDeRepeticao.pdb

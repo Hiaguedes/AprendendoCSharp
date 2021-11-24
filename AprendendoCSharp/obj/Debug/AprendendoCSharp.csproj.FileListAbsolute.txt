@@ -1,7 +1,6 @@
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\bin\Debug\AprendendoCSharp.exe.config
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\bin\Debug\AprendendoCSharp.exe
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\bin\Debug\AprendendoCSharp.pdb
-C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\obj\Debug\AprendendoCSharp.csproj.AssemblyReference.cache
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\obj\Debug\AprendendoCSharp.csproj.SuggestedBindingRedirects.cache
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\obj\Debug\AprendendoCSharp.csproj.CoreCompileInputs.cache
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\AprendendoCSharp\obj\Debug\AprendendoCSharp.exe

@@ -1,0 +1,7 @@
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\bin\Debug\Variaveis.exe.config
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\bin\Debug\Variaveis.exe
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\bin\Debug\Variaveis.pdb
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\obj\Debug\Variaveis.csproj.SuggestedBindingRedirects.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\obj\Debug\Variaveis.csproj.CoreCompileInputs.cache
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\obj\Debug\Variaveis.exe
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\Variaveis\obj\Debug\Variaveis.pdb
