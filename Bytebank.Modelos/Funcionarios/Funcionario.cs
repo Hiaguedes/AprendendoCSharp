@@ -27,5 +27,15 @@ namespace ByteBank.Funcionarios
         public abstract void AumentarSalario();
 
         internal protected abstract double GetBonificacao();
+
+        public override bool Equals(object? obj)
+        {
+
+            Funcionario? refObj = obj as Funcionario;
+
+            if(refObj == null) return false; // possivel pq usamos o as Funcionario, se a conversao do objeto recebido nao e um funcionario entao ele se transforma em null
+
+            return CPF == refObj.CPF;
+        }
     }
 }

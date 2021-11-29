@@ -21,5 +21,10 @@ namespace ByteBank.Funcionarios
         {
             return Salario * 0.1;
         }
+
+        public override string ToString()
+        {
+            return $"O salario e de {Salario}, a bonificacao seria de {this.GetBonificacao()}";
+        }
     }
 }

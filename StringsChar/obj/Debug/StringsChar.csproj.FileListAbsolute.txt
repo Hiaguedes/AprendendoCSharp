@@ -5,3 +5,4 @@ C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\Str
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.csproj.CoreCompileInputs.cache
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.exe
 C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.pdb
+C:\Users\hiago\source\repos\Hiaguedes\AprendendoCSharp\StringsChar\obj\Debug\StringsChar.csproj.AssemblyReference.cache

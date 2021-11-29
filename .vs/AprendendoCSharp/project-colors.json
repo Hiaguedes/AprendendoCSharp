@@ -40,7 +40,12 @@
       "ProjectGuid": "dbc8afaa-2bf9-4e06-b4cb-91f9267906ab",
       "DisplayName": "AprendendoCSharp",
       "ColorIndex": 6
+    },
+    "69342668-054c-48b6-b856-2dbd628b5add": {
+      "ProjectGuid": "69342668-054c-48b6-b856-2dbd628b5add",
+      "DisplayName": "StringsChar",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
