@@ -45,7 +45,12 @@
       "ProjectGuid": "69342668-054c-48b6-b856-2dbd628b5add",
       "DisplayName": "StringsChar",
       "ColorIndex": 7
+    },
+    "4a61fd4d-2e4d-435c-a7d7-7d516c9f5373": {
+      "ProjectGuid": "4a61fd4d-2e4d-435c-a7d7-7d516c9f5373",
+      "DisplayName": "Objetos",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
