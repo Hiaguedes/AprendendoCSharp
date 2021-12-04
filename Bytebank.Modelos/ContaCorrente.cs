@@ -6,7 +6,7 @@ namespace ByteBank.Modelos
     /// <summary>
     /// Define uma conta corrente do banco ByteBank
     /// </summary>
-    public class ContaCorrente
+    public class ContaCorrente : IComparable<ContaCorrente>
     {
         public static int numeroContas { get; private set; } = 0;
 
@@ -120,6 +120,24 @@ namespace ByteBank.Modelos
             }
             contaDestino.Depositar(valor);
 
+        }
+
+        public override string ToString()
+        {
+            return $"Conta de numero {Numero} e agencia {Agencia}";
+        }
+
+        // IComparable compara um atributo da classe
+        public int CompareTo(ContaCorrente conta) {
+            // retornar negativo quando a instancia do objeto atual esta antes do objeto conta
+            // retornar 0 quando sao equivalentes 
+            // retornar positivo quando a instancia do objeto atual esta depois do objeto conta
+
+            //if (Numero < conta.Numero || conta == null) return -1;
+            //if (Numero == conta.Numero) return 0;
+            //return 1;
+
+            return this.Numero.CompareTo(conta.Numero);
         }
 
     }

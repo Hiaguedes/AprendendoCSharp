@@ -72,10 +72,10 @@ namespace Objetos.Lista
         {
             if(item == null)
             {
-                throw new ArgumentException("Item nao pode ser nulo");
+                throw new ArgumentNullException("Item nao pode ser nulo");
             }
             int indexToRemove = -1;
-            for(int i = 0; i <_listItems.Length; i++)
+            for(int i = 0; i < _listItems.Length; i++)
             {
                 if(item.Equals(_listItems[i]))
                 {
@@ -122,4 +122,20 @@ namespace Objetos.Lista
 Resultado: 
 
 ContaCorrente[], [params int[] indices] e [indices.Length].
+ */
+
+/*
+ Mas, e se MinhaClasse for genérica?
+
+class MinhaClasse<T>COPIAR CÓDIGO
+O código de acesso ao ContadorEstatico deixa de compilar, precisamos especificar o argumento de tipo antes:
+
+MinhaClasse<int>.ContadorEstatico++;
+MinhaClasse<int>.ContadorEstatico++;
+MinhaClasse<int>.ContadorEstatico++;
+
+Console.WriteLine(MinhaClasse<int>.ContadorEstatico);COPIAR CÓDIGO
+Aqui eu usei o argumento de tipo <int>. Bora executar? A saída será a mesma: 3. Mas, e se mudarmos este argumento genérico na hora de mostrar na tela?
+
+Console.WriteLine( MinhaClasse<string>.ContadorEstatico );
  */

@@ -63,7 +63,7 @@ for(int i = 0; i < Verdades.Length; i++)
     //Console.Beep();
 }
 
-var lista = new Lista<string>();
+Lista<string> lista = new();
 
 lista.Push("Oi");
 lista.Push("Koe");
@@ -77,4 +77,5 @@ lista.Remove(2);
 lista.Log();
 
 Console.WriteLine(lista[1]);
+Console.WriteLine(lista.Peek());
 Console.WriteLine(lista.Length);

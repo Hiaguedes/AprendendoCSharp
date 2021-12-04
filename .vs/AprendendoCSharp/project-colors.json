@@ -50,7 +50,12 @@
       "ProjectGuid": "4a61fd4d-2e4d-435c-a7d7-7d516c9f5373",
       "DisplayName": "Objetos",
       "ColorIndex": 8
+    },
+    "b67d0563-3192-4880-a49a-c38a7c2fb22a": {
+      "ProjectGuid": "b67d0563-3192-4880-a49a-c38a7c2fb22a",
+      "DisplayName": "ListELinqELambda",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }
