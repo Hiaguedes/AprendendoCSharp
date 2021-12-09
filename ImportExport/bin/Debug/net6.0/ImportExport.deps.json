@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ImportExport/1.0.0": {
+        "dependencies": {
+          "ByteBank.Modelos": "1.0.0"
+        },
+        "runtime": {
+          "ImportExport.dll": {}
+        }
+      },
+      "ByteBank.Modelos/1.0.0": {
+        "runtime": {
+          "ByteBank.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImportExport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ByteBank.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

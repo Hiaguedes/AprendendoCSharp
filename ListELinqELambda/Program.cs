@@ -21,13 +21,31 @@ contas.PushMany(
     new ContaCorrente(20, 4878754),
     new ContaCorrente(154, 4257845),
     new ContaCorrente(5, 9565487),
+    null,
     new ContaCorrente(3, 4878754),
+    null,
     new ContaCorrente(66, 5748787)
     );
 //contas.Sort(); // IComparable
-contas.Sort(new Comparador()); // IComparer
+// contas.Sort(new Comparador()); // IComparer
 
-Console.WriteLine(string.Join("\n", contas));
+
+//var contasOrdenadas = contas.OrderBy((conta) => { 
+//    if(conta == null) { 
+//        return Int32.MaxValue; 
+//    }
+//    return conta.Agencia; 
+//});
+
+var contasOrdenadas = contas
+                    .Where(agencia => agencia != null)
+                    .OrderBy(conta => conta.Agencia);
+
+// var contasOrdenadas = contas.OrderByDescending(conta => conta.Agencia);
+
+Console.WriteLine($"contasOrdenadas: {string.Join('\n', contasOrdenadas)}");
+
+//Console.WriteLine(string.Join("\n", contas));
 
 Console.WriteLine(string.Join('-', list));
 
@@ -42,3 +60,15 @@ public class Comparador : IComparer<ContaCorrente>
         return x.Agencia.CompareTo(y.Agencia);
     }
 }
+
+/*
+ Temos uma lista de string para representar todos os meses do ano:
+
+var meses = new List<string>() { "janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro" };COPIAR CÓDIGO
+Para ordenar esta lista pelo nome, podemos usar o método Sort(), pois a String implementa a interface IComparable e, por consequência, possui o método CompareTo.
+
+var mesesOrdenados = meses.OrderBy(mes => mes);
+
+
+Correta! A expressão lambda mes => mes recebe uma string e devolve a mesma string. Como este tipo implementa a interface IComparable, podemos usar o OrderBy sem problemas.
+ */

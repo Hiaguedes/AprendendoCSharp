@@ -55,7 +55,12 @@
       "ProjectGuid": "b67d0563-3192-4880-a49a-c38a7c2fb22a",
       "DisplayName": "ListELinqELambda",
       "ColorIndex": 9
+    },
+    "d3c0a536-f742-43e5-bd0f-2f7399a9b88d": {
+      "ProjectGuid": "d3c0a536-f742-43e5-bd0f-2f7399a9b88d",
+      "DisplayName": "ImportExport",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }

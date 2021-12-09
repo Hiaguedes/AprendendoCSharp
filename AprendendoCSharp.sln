@@ -28,7 +28,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteBank.Modelos", "Byteban
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objetos", "Objetos\Objetos.csproj", "{4A61FD4D-2E4D-435C-A7D7-7D516C9F5373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListELinqELambda", "ListELinqELambda\ListELinqELambda.csproj", "{B67D0563-3192-4880-A49A-C38A7C2FB22A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListELinqELambda", "ListELinqELambda\ListELinqELambda.csproj", "{B67D0563-3192-4880-A49A-C38A7C2FB22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportExport", "ImportExport\ImportExport.csproj", "{D3C0A536-F742-43E5-BD0F-2F7399A9B88D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,9 +82,16 @@ Global
 		{B67D0563-3192-4880-A49A-C38A7C2FB22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B67D0563-3192-4880-A49A-C38A7C2FB22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B67D0563-3192-4880-A49A-C38A7C2FB22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C0A536-F742-43E5-BD0F-2F7399A9B88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C0A536-F742-43E5-BD0F-2F7399A9B88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C0A536-F742-43E5-BD0F-2F7399A9B88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C0A536-F742-43E5-BD0F-2F7399A9B88D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3C0A536-F742-43E5-BD0F-2F7399A9B88D} = {DD835A9E-9A46-4BE9-9FC3-104051634555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D6DB97-BDFF-4F1F-BC0E-F3A90CF940D9}
