@@ -124,7 +124,7 @@ namespace ByteBank.Modelos
 
         public override string ToString()
         {
-            return $"Conta de numero {Numero} e agencia {Agencia}";
+            return $"nome {Titular.nome}: Conta de numero {Numero} e agencia {Agencia}  saldo {Saldo} ";
         }
 
         // IComparable compara um atributo da classe

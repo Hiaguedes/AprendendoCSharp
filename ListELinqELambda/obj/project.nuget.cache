@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5BfbPzvOnok7PhiLwlSEyfu1IMu+Jbo2DNSxSVzRfMUeuNlsdOgBIzJSd7kogBVZjaGVdINbMiB4PN/yHDkisg==",
+  "dgSpecHash": "tg/C6rgo3vnIXfGHS5ehPHDYhY89JeK2XhIl+75UXjl2RfOcP2d+s4VpFjo6hbKNKg4MJnP26yLzF67Fyhci3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hiago\\source\\repos\\Hiaguedes\\AprendendoCSharp\\ListELinqELambda\\ListELinqELambda.csproj",
+  "projectFilePath": "/home/hiagoriba/h1.labs/AprendendoCSharp/ListELinqELambda/ListELinqELambda.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

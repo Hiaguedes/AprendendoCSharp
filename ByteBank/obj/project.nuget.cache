@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+boZ8TkMEHpUf+Dy37rNWXVdlFZkhi7BvOMN0L0cTejy7k4HPMSyXub8nSNQK48mh4KIAqnTt+T3QL2BdNyBeA==",
+  "dgSpecHash": "QJXwrrjixqlUKvbUa2nZV0A5pcFKogP25DBtH2U8ivbpn+dWtYtQdJH49TeRWeUx0C/8tPw6bkhgtO/9R5oPEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hiago\\source\\repos\\Hiaguedes\\AprendendoCSharp\\ByteBank\\ByteBank.csproj",
+  "projectFilePath": "/home/hiagoriba/h1.labs/AprendendoCSharp/ByteBank/ByteBank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
